@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>RetroTetris</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="title">RETROTETRIS</div>
+
+    <canvas id="tetris" width="300" height="600"></canvas>
+
+    <div class="info">
+      <div>Score: <span id="score">0</span></div>
+      <div>Lines: <span id="lines">0</span></div>
+      <div>Level: <span id="level">1</span></div>
+    </div>
+
+    <div class="controls">
+      <p>Controls:</p>
+      <ul>
+        <li>⬅️ / ➡️ – Move</li>
+        <li>⬆️ – Rotate</li>
+        <li>⬇️ – Soft drop</li>
+        <li>Space – Hard drop</li>
+        <li>P – Pause / Resume</li>
+        <li>R – Restart</li>
+      </ul>
+    </div>
+
+    <div id="message" class="message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
